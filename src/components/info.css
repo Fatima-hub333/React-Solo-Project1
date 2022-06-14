@@ -1,0 +1,39 @@
+.intro-sec {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.intro-img {
+  border: 2px solid black;
+  width: 200px;
+  height: 230px;
+}
+
+.intro-sec h1 {
+  font-family: 'Inter';
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 30px;
+  text-align: center;
+}
+
+.intro-sec h3 {
+  font-family: 'Inter';
+  font-weight: 400;
+  line-height: 15px;
+  color: #F47D27;
+  margin-top: 0px;
+}
+
+.intro-sec h5 {
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 14.24px;
+  line-height: 150%;
+  margin-top: 0px;
+  color: #4A4E74;
+
+}
