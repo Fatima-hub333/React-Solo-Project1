@@ -9,6 +9,7 @@ export default function About() {
         I try to keep up with security and best practices, and am always looking for new things to learn.</p>
       <h2>Interests</h2>
       <p>Hiker. Reader. Internet Fanatic. Coffee Fanatic</p>
+      
     </div>
     
   )

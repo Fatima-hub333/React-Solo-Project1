@@ -2,7 +2,6 @@
 
 .app {
   box-sizing: border-box;
-  /* background-color: #414552; */
 }
 
 .Wrapper {
@@ -26,7 +25,6 @@
 
 .buttons {
   display: flex;
-  column-gap: 10px;
 }
 
 .buttons a {
@@ -69,7 +67,7 @@
 }
 
 .email {
-  margin-left: 60px;
+  margin-left: -10px;
 }
 
 .linkedin {
