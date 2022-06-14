@@ -1,39 +1,89 @@
-.intro-sec {
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400&display=swap');
+
+.app {
+  box-sizing: border-box;
+  background-color: #414552;
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 2% 1%;
+  display: flex;
+  justify-content: center;
+}
+
+.Wrapper {
+  margin: 0 auto;
+  width: 25%;
+  background-color: #1a1b21;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column ;
+}
+
+.Wrapper > img {
+  margin-top: -210px;
+  width: 100%;
+  height: 20vw;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.contact-section {
+  color: white;
+}
+
+.buttons {
+  display: flex;
+  column-gap: 10px;
+}
+
+.buttons a {
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+}
+
+.buutons a img {
+  width: 100%;
+  border: 2px solid black;
+}
+
+.cardBody {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin-top: 30px;
 }
 
-.intro-img {
-  border: 2px solid black;
-  width: 200px;
-  height: 230px;
-}
-
-.intro-sec h1 {
-  font-family: 'Inter';
-  font-weight: 700;
-  font-size: 25px;
-  line-height: 30px;
+.cardBody > h1 {
+  font-family: 'inter', sans-serif;
+  font-size: 2rem;
+  font-weight: 400;
+  letter-spacing: 0em;
+  color: #F3BF99;
+  margin-top: 10px;
   text-align: center;
 }
 
-.intro-sec h3 {
-  font-family: 'Inter';
-  font-weight: 400;
-  line-height: 15px;
-  color: #F47D27;
+.cardBody > h4 {
+  text-align: center;
   margin-top: 0px;
 }
 
-.intro-sec h5 {
-  font-family: 'Inter';
-  font-weight: 400;
-  font-size: 14.24px;
-  line-height: 150%;
-  margin-top: 0px;
-  color: #4A4E74;
+.cardBody > .email {
+  margin-left: 60px;
+}
 
+.cardBody > .linkedin {
+  margin-right: 5px;
+}
+
+@media all and (max-width: 600px)
+{
+  .cardWrapper {
+    width: 100%;
+    border-radius: 0;
+  }
+  .app {
+    padding: 0;
+  }
 }
